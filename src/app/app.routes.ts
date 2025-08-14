@@ -1,11 +1,11 @@
 import { Routes } from '@angular/router';
-import { SupportpageComponent } from './supportpage/supportpage.component';
-import { LandingPageComponent } from './landing-page/landing-page.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { ProfileComponent } from './profile/profile.component';
-import { GetapiComponent } from './getapi/getapi.component';
-import { RegisterComponent } from './register/register.component';
-import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { SupportpageComponent } from './components/supportpage/supportpage.component';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { GetapiComponent } from './components/getapi/getapi.component';
+import { RegisterComponent } from './components/register/register.component';
+import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 
 //* all the routes created here, are passed into app.config.ts as routes into provideRouter(route)
 export const routes: Routes = [
