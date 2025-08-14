@@ -1,0 +1,97 @@
+<div class="hero-section" style="
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 40px 0;
+    background: #f8f9fa;
+
+">
+    <h1 style="font-size: 2.5rem; font-weight: 600; margin-bottom: 16px; color: #222;">Welcome</h1>
+    <p style="font-size: 1.1rem; color: #555; margin-bottom: 24px;">Enter your name to get started</p>
+    <input type="text" placeholder="Your name" style="
+        width: 260px;
+        padding: 10px 14px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+        outline: none;
+        margin-bottom: 8px;
+        background: #fff;
+    ">
+    <button
+    style="padding: 8px 18px;
+            border-radius: 6px;
+            border: none;
+            background: #ffc107;
+            color: #000;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;"
+    >Get Started</button>
+</div>
+<div class="container" style="
+    min-height: 180px;
+    width: 340px;
+    border-radius: 12px;
+    border: 1.5px solid #e0e0e0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    margin: 32px auto 0 auto;
+    background: #fff;
+">
+    <span style="font-size: 1.2rem; font-weight: 500; color: #333;">This is a Landing page</span>
+    <div class="buttonContainer" style="
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+        margin-top: 10px;
+    ">
+        <button style="
+            padding: 8px 18px;
+            border-radius: 6px;
+            border: none;
+            background: #007bff;
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+        " [routerLink]="['/getAPI']" routerLinkActive="router-link-active">GET</button>
+        <button style="
+            padding: 8px 18px;
+            border-radius: 6px;
+            border: none;
+            background: #28a745;
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+        " [routerLink]="['/register']" routerLinkActive="router-link-active">POST</button>
+        <button style="
+            padding: 8px 18px;
+            border-radius: 6px;
+            border: none;
+            background: #ffc107;
+            color: #222;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+        ">PUT</button>
+        <button style="
+            padding: 8px 18px;
+            border-radius: 6px;
+            border: none;
+            background: #dc3545;
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+        ">DELETE</button>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+.not-found-container {
+    text-align: center;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.not-found-container h1 {
+    font-size: 6rem;
+    margin: 0;
+    color: #e74c3c;
+}
+
+.not-found-container p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 24px;
+    background: #FCBF49;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background 0.2s;
+}

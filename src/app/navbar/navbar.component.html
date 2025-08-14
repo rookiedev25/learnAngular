@@ -1,0 +1,24 @@
+<div class="navBarContainer">
+    <div class="logo">
+        <h2>rookieDev25</h2>
+    </div>
+    <div class="links">
+        <ul>
+            <li>
+                <a [routerLink]="['/']" routerLinkActive="router-link-active"
+                [routerLinkActiveOptions]="{exact: true}"
+                >Home</a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']" routerLinkActive="router-link-active" >Dashboard</a>
+            </li>
+            <li>
+                <a [routerLink]="['/support']" routerLinkActive="router-link-active">Support</a>
+            </li>
+            <li>
+                <a [routerLink]="['/profile']" routerLinkActive="router-link-active">Profile</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<router-outlet></router-outlet>

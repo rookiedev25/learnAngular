@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="heading">
+        <h2>Contact Form</h2>
+    </div>
+    <form (ngSubmit)="submitEntry()" #registerForm="ngForm">
+        <div class="labelInputPair">
+            <label for="name">Name</label>
+            <input id="name" [(ngModel)]="registerObj.name" name="name" type="text" required>
+        </div>
+        <div class="labelInputPair">
+            <label for="email">Email</label>
+            <input id="email" [(ngModel)]="registerObj.email" name="email" type="email" required>
+        </div>
+        <div class="labelInputPair">
+            <label for="message">Message</label>
+            <input id="message" [(ngModel)]="registerObj.message" name="message" type="text" required>
+        </div>
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+</div>
